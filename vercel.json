@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/tos",
-      "destination": "/tos.html"
+      "source": "/:path",
+      "destination": "/:path.html"
     }
   ]
 }
