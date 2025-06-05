@@ -1097,7 +1097,7 @@
                 const progress = Math.min((timestamp - startTimestamp) / duration, 5);
                 const value = Math.floor(progress * (end - start) + start);
                 obj.innerHTML = value.toLocaleString() + '+';
-                if (progress < 5) {
+                if (progress < 1) {
                     window.requestAnimationFrame(step);
                 }
             };
